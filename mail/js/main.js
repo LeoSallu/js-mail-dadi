@@ -5,19 +5,17 @@ const mail = ['pippo@gmail.com','franco@gmail.com','amilcare@gmail.com','orlando
 const mailInput = prompt('Inserisci la tua mail');
 let join = false;
         //Ciclo per verificare la Mail dell'utente   
-for(let i=0; i<mail.lenght; i++){
+for(let i = 0; i < mail.length; i++){
     const mailUtente = mail[i];
-    if(mailInput===mailUtente){
-        join=true;
-    }
-    else if(mailInput!==mailUtente){
-        join=false;
+    if(mailInput === mailUtente){
+        join = true;
     }
 }
-if(join===true){
-    alert('Bravo tu puoi passare');
-}
- else if(join===false){
-    alert('Tu non puoi passare');
- }   
+        //Alert
+    if(join === true){
+        alert('Bravo tu puoi passare');
+    }
+    else{
+        alert('Tu non puoi passare');
+    }       
 
