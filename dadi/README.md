@@ -5,7 +5,7 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 -1° STEP:
 Generare un  numero randomico da 1 a 6 tramite Math.random;
 -2° STEP:
-Chiedere all'Utente tramite prompt di inserire un numero da 1 a 6;
+Generare un numero randomico per l'utente;
 -3° STEP:
 Impostare una condizione if che se il numero random è maggiore si generi un alert con ha vinto il computer;
 -4° STEP:
